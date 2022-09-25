@@ -1,0 +1,64 @@
+body{
+    /* width: 1440px; */
+    padding: 20px 80px;
+}
+
+div{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.grow{
+    border: solid 1px rgb(199, 199, 199);
+    border-radius: 25px;
+    display: grid;
+    grid-template-areas:
+        "uno tres"
+        "dos tres";
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: start;
+}
+
+.uno {
+    grid-area: uno;
+    font-family: 'Open Sans';
+    align-self: end;
+}
+
+.dos {
+    grid-area: dos;
+    margin-top: 0px;
+    font-family: 'Open Sans';
+    color: grey;
+    align-self: start;
+}
+
+.tres {
+    grid-area: tres;
+    width: 300px;
+}
+
+.flow{
+    border: solid 1px rgb(199, 199, 199);
+    border-radius: 25px;
+    display: grid;
+    grid-template-areas:
+        "tres uno"
+        "tres dos";
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: start;
+}
+
+.users{
+    border: solid 1px rgb(199, 199, 199);
+    border-radius: 25px;
+    display: grid;
+    grid-template-areas:
+        "uno tres"
+        "dos tres";
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: start;
+}
