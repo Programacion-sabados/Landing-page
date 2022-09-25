@@ -1,0 +1,52 @@
+body{
+    background-color: hsl(193, 100%, 96%);
+}
+.encabezado{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    height: 30px;
+}
+#uno{
+    height: 35px;
+    width: 12em;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 4px 7px rgb(180, 180, 180); 
+    font-family: 'Poppins', sans-serif;
+}
+
+.info{
+    margin: 70px 40px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.descripcion{
+    padding-top: 50px;
+}
+h1{
+    color: hsl(192, 100%, 9%); 
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: hsl(192, 100%, 9%); 
+    font-family: 'Open Sans', sans-serif;
+    width: 500px;
+    padding-top: 10px;
+}
+#dos{
+    margin-top: 15px;
+    height: 40px;
+    width: 16em;
+    border-radius: 40px;
+    border: none;
+    background-color: hsl(322, 93%, 59%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#pantallas{
+    width: 40em;
+}
